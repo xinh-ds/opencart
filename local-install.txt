@@ -8,13 +8,17 @@
 NOTE: THIS IS FOR NEW INSTALL ONLY!
 IF UPGRADING YOUR EXISTING CART, BE SURE TO READ THE UPGRADE.TXT FILE INSTEAD
 
-
 -------
 INSTALL
 -------
 These instructions are for a manual installation using FTP, cPanel or other web hosting Control Panel.
 
 - Linux Install -
+
+1.0 sudo chmod -R 777 system/storage
+1.0 chmod -R 777 config.php admin/config.php
+- user: admin/admin/ducxinh201@gmail.com
+- db: open_cart
 
 1. Upload all of the files and folders to your server from the "Upload" folder, place them in your web root. The web root is different on some servers, cPanel it should be public_html/ and on Plesk it should be httpdocs/.
 
